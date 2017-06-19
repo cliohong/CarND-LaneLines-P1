@@ -35,14 +35,14 @@ For this project I created two masks: one for while lanes and one for yellow lan
 ---
 #### white lane
 
-![white](yellow_lane.jpg)
+![white](white_lane.jpg)
 
 I found white lane showed on this example image looked good enough and provided good results when ran against other example images.
 
 
 ---
 #### yellow lane
-![yellow](white_lane.jpg)
+![yellow](yellow_lane.jpg)
 
 The yellow lane was a little bit complicated since the color has taken into account. By using **cv2.cvtColor( )** to convert the image from BGR colorspace to HSV,I was able to create a mask that isolated the yellow lane.
 
